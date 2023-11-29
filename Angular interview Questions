@@ -44,6 +44,32 @@ npm install Angular
 6) What is the imporatnce of Package.json File?
 A)It has all the Javascript references needed for a project. So rather than installing one package at a time we can install all the packages in one go.
 
+7) What is TypeScript?
+A)Typescript is the superset of JS . It  adds types to JS.It gives a nice object-oriented programming environment which conerts to javascript.
+Example: Without Typescript
+Var x = 0;
+X++;
+X="shiv";
+
+Example:  Typescript
+Var x:number= 0;
+X++;
+X="shiv";
+
+8) Importance of Angular CLI?
+A) Command line interface. It help to create the readymade angular project template. To install the CLI we should use 
+npm install @angular/cli
+ng new myapp   (creates a project template)
+
+9) Expain the importance of component and modules?
+A) A component is the central point which goes and bind view and module or css and module. Component is the place in the angular where we write the binding code.
+Module: A module groups angular components.
+
+10) Expalin the importance of decorater in the Angular?
+
+
+
+
 
 
 
