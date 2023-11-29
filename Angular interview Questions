@@ -28,4 +28,24 @@ A) Directives are the angular syntax inside the HTML they go and change the beha
 
 (Note: From the above example ngmodle, value, hidden all are the directives which changes the behaviourof HTML DOM)
 
+4) what are the different types of angular Directives?
+A)We have 3 types of Directives:
+*Structural Directive:Structural directives changes the structure of  HTML DOM elemnets.they add the new element in the DOM or remove a element in DOM.
+*Attribute Directive: Attribute Directive does not change the structure but it changes the behaviour of the HTML DOM.
+<div [hidden] = "Hide()">Hello</div>
+
+*Component Directive:A component directive is like a customized user control which has own template.
+
+5)what is the use of NPM and Node_Modules_folder?
+A)NPM stands for Node Pakcage manager. NPM is a pacakge manager which installs the js frameworks.Node_module is the folder where all
+the packages are installed.
+npm install Angular
+
+6) What is the imporatnce of Package.json File?
+A)It has all the Javascript references needed for a project. So rather than installing one package at a time we can install all the packages in one go.
+
+
+
+
+
 
