@@ -65,7 +65,11 @@ ng new myapp   (creates a project template)
 A) A component is the central point which goes and bind view and module or css and module. Component is the place in the angular where we write the binding code.
 Module: A module groups angular components.
 
-10) Expalin the importance of decorater in the Angular?
+10) Expalin the importance of decorater in the Angular? or what is metadata or annotations?
+A) A decorater defines what type of the angular class it is. For example: If you use @component on the top of class then it says 
+it is  a angular component. If you use @ngmodule on top of calss it says it is angular module.
+
+
 
 
 
