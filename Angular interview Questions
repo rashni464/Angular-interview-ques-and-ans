@@ -69,6 +69,12 @@ Module: A module groups angular components.
 A) A decorater defines what type of the angular class it is. For example: If you use @component on the top of class then it says 
 it is  a angular component. If you use @ngmodule on top of calss it says it is angular module.
 
+11) what is Template in angular?
+Template is the HTML view of angular in which we can write direcives.There are two ways of defing template one is inline and other is
+seperate html file. We can link the template with the @component decorater.
+
+
+
 
 
 
