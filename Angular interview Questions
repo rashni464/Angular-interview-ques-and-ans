@@ -73,6 +73,8 @@ it is  a angular component. If you use @ngmodule on top of calss it says it is a
 Template is the HTML view of angular in which we can write direcives.There are two ways of defing template one is inline and other is
 seperate html file. We can link the template with the @component decorater.
 
+12) what is data Binding in angular?
+A) data binding in angular explains how the view and component communicate with each other.
 
 
 
