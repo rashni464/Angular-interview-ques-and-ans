@@ -76,7 +76,13 @@ seperate html file. We can link the template with the @component decorater.
 12) what is data Binding in angular?
 A) data binding in angular explains how the view and component communicate with each other.
 
+13) why do we use services in angular. Need short answer with real time example.
+A) We use services in Angular to share reusable logic and data across components and to promote separation of concerns.
+Real-time example:
+In a shopping cart app, a CartService can manage the cart items (add, remove, get total). Different components (ProductList, CartSummary, Checkout)
+can all use this same service to access and update the cart without duplicating logic.
 
+14)
 
 
 
