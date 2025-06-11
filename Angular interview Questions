@@ -83,8 +83,9 @@ In a shopping cart app, a CartService can manage the cart items (add, remove, ge
 can all use this same service to access and update the cart without duplicating logic.
 
 14)what is dependency injection?Need short answer with real time example
-A) Dependency Injection (DI) is a design pattern where an object’s dependencies (services or other classes it needs) are provided from the outside, rather
-than the object creating them itself. This makes code more modular, testable, and reusable.
+A) Dependency Injection (DI) is a design pattern where an object’s dependencies (services or other classes it needs)
+are provided from the outside, rather than the object creating them itself. This makes code more modular, testable, 
+and reusable.
 
 15)  How will you optimize code?
 A)Lazy loading — load feature modules only when needed using Angular’s router.
@@ -92,7 +93,35 @@ Change Detection strategy — use ChangeDetectionStrategy.OnPush where possible 
  Code splitting — split large files into smaller reusable components and services.
 Avoid memory leaks — unsubscribe from Observables when the component is destroyed.
 
+16)If the page loaded fully on browser, which lifecycle will be done?
+A)ngAfterViewInit() — called after the component’s view and its child views are fully initialized.
+ngAfterViewChecked() — runs after the view has been checked by Angular’s change detection.
 
+17)Did you use Interceptor and explain how did you use?
+a) Yes, I have used HTTP Interceptors to handle cross-cutting concerns like:
+ Adding Authorization tokens to requests. 
+Handling global error messages.
+Showing loading spinners during API calls.
+
+18) Which RxJS operators did you use?
+A) map — transform data.
+filter — filter the stream based on a condition.
+switchMap — switch to a new observable and cancel the previous one.
+debounceTime — delay input to avoid multiple API calls (ex: in search fields).
+
+19) If you want to communicate between components, how do you do that?
+A)  Parent to Child:
+Use @Input() to pass data.
+
+✅ Child to Parent:
+Use @Output() + EventEmitter.
+
+✅ Sibling components:
+Use a shared service with RxJS Subject or BehaviorSubject.
+
+✅ Using Angular Router state:
+Pass state while navigating between routes.
+ 
 
 
 
