@@ -82,7 +82,18 @@ Real-time example:
 In a shopping cart app, a CartService can manage the cart items (add, remove, get total). Different components (ProductList, CartSummary, Checkout)
 can all use this same service to access and update the cart without duplicating logic.
 
-14)
+14)what is dependency injection?Need short answer with real time example
+A) Dependency Injection (DI) is a design pattern where an object’s dependencies (services or other classes it needs) are provided from the outside, rather
+than the object creating them itself. This makes code more modular, testable, and reusable.
+
+15)  How will you optimize code?
+A)Lazy loading — load feature modules only when needed using Angular’s router.
+Change Detection strategy — use ChangeDetectionStrategy.OnPush where possible to reduce unnecessary checks.
+ Code splitting — split large files into smaller reusable components and services.
+Avoid memory leaks — unsubscribe from Observables when the component is destroyed.
+
+
+
 
 
 
